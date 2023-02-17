@@ -1,0 +1,2332 @@
+    @import url("fontfamily.css");
+
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    .abovefootercol {
+        margin-inline: 30px;
+    }
+
+
+    button {
+        cursor: pointer;
+    }
+
+    .saleoff {
+        background-image: url("images/bluepattisales.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat no-repeat;
+        color: rgb(111, 111, 111);
+        text-align: center;
+        font-family: RanuaTrials-Medium;
+        font-size: 14px;
+        padding-block: 5px;
+    }
+
+    .pagewidth {
+        margin: auto;
+        max-width: 1700px;
+    }
+
+    .section3top {
+        max-width: 1300px;
+        padding: 0 35px;
+        margin: auto;
+    }
+
+    .navsection3top {
+        max-width: 1300px;
+        padding: 0 35px;
+        margin: auto;
+
+    }
+
+    .nav-section {
+        padding-block: 18px;
+        background-color: white;
+    }
+
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navandsalediv {
+        border-bottom: thin solid rgba(000, 000, 00, 0.1);
+    }
+
+    /********************Hamburger menue***************/
+    .container {
+        display: none;
+
+    }
+
+    .bar1,
+
+    .bar3 {
+        width: 29px;
+        height: 2px;
+        background-color: #333;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+
+    .bar2 {
+        width: 14px;
+        height: 2px;
+        background-color: #333;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+
+    .change1 {
+        transform: translate(0, 8px) rotate(-45deg);
+    }
+
+    .change2 {
+        opacity: 0;
+    }
+
+    .change3 {
+        transform: translate(0, -8px) rotate(45deg);
+    }
+
+    /***************************************************/
+    .navlogo {
+        width: 15%;
+    }
+
+    .logoimage {
+        width: 100%;
+        display: block;
+    }
+
+    .nav-ul {
+        width: 74%;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .anchor-li {
+        text-decoration: none;
+        color: rgb(111, 111, 111);
+        font-family: RanuaTrials-Regular;
+        font-size: 13px;
+
+    }
+
+    .nav-icon-image {
+        width: 100%;
+        display: block;
+    }
+
+    .nav-icon {
+        width: 2%;
+    }
+
+    /*******************carouselhomebackground***********************/
+
+    .backgroundtophome {
+        background-image: url("images/greenglobesection9background.jpg");
+
+        /* both back-ground images are not repeating */
+        background-repeat: no-repeat no-repeat;
+
+        background-size: cover;
+        background-position: center center;
+        max-width: 100%;
+        height: auto;
+        width: 100%;
+
+    }
+
+    .backgroundtophome2 {
+        background-image: url("images/firstcarouselpicture.jpg");
+
+        /* both back-ground images are not repeating */
+        background-repeat: no-repeat no-repeat;
+
+        background-size: cover;
+        background-position: center center;
+        max-width: 100%;
+        height: auto;
+        width: 100%;
+
+    }
+
+    .backgroundtophome3 {
+        background-image: url("images/carouselthree.jpg");
+
+        /* both back-ground images are not repeating */
+        background-repeat: no-repeat no-repeat;
+
+        background-size: cover;
+        background-position: center center;
+        max-width: 100%;
+        height: auto;
+        width: 100%;
+
+    }
+
+    .slideshow-container {
+        width: inherit;
+        position: relative;
+        margin: auto;
+    }
+
+
+    .homecarousel1row {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: row;
+        padding-block: 100px;
+    }
+
+
+    /*******************HEY You div****************/
+    .heyU {
+        display: flex;
+        align-items: end;
+        flex-wrap: nowrap;
+        gap: 1%;
+    }
+
+    .Uimage {
+        width: 100%;
+    }
+
+    .heyudivimage {
+        width: auto;
+    }
+
+    .homecarousel1col1 {
+        width: 50%;
+    }
+
+    .carouselulimagesiconrow {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /* justify-content: flex-start; */
+        width: 100%;
+        padding-block: 30px;
+        gap: 1%;
+
+    }
+
+    .sectiononeiconcolhome {
+        width: 18%;
+    }
+
+    .sectiononeiconcol {
+
+        width: 58%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+
+    }
+
+    .iconscontainersectionhome {
+        width: 100%;
+
+
+    }
+
+    .iconscontainersectionone {
+        width: 64.3%;
+
+    }
+
+    .sectiononeiconcoltext {
+        font-family: RanuaTrials-Regular;
+        font-size: 12px;
+        color: rgb(58, 58, 58);
+        margin-block: 6%;
+        font-size: 12px;
+        text-align: center;
+    }
+
+
+
+
+    .homecarouselcol2 {
+        width: 40%;
+        display: flex;
+
+    }
+
+    .orangecylinder {
+        width: 100%;
+        display: block;
+    }
+
+    .homecarousel1col1heading {
+        font-family: RanuaTrials-Medium;
+        color: rgb(58, 58, 58);
+        font-size: 55px;
+    }
+
+    /**********************CAROUSEL 2******************/
+    .homecarousel1col1heading1 {
+        font-family: RanuaTrials-Medium;
+        color: rgb(255, 255, 255);
+        font-size: 55px;
+    }
+
+    .homecarousel1col1smalltext1 {
+        font-family: RanuaTrials-Regular;
+        color: rgb(255, 255, 255);
+        padding-block: 20px;
+    }
+
+    .sectiononeiconcoltext1 {
+        font-family: RanuaTrials-Regular;
+        font-size: 12px;
+        color: rgb(255, 255, 255);
+        margin-block: 6%;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    /*************************************************/
+
+    .homecarousel1col1smalltext {
+        font-family: RanuaTrials-Regular;
+        color: rgb(58, 58, 58);
+        padding-block: 20px;
+    }
+
+    /***********************CAROUSEL THREE******************************/
+    .homecarousel3row {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-end;
+        flex-direction: row;
+        padding-block: 100px;
+    }
+
+    /*****************************FOURTH CAROUSEL**********/
+    .fourthcarouselbackground {
+        background-image: url("images/fourthcarouselbackground.jpg");
+
+        /* both back-ground images are not repeating */
+        background-repeat: no-repeat no-repeat;
+
+        background-size: cover;
+        background-position: center center;
+        max-width: 100%;
+        height: auto;
+        width: 100%;
+    }
+
+    /**********************************************************/
+
+
+
+    /********************FIFTH CAROUSEL BACKGROUND***********/
+    .fifthcarouselbackground {
+        background-image: url("images/fifthcarouselbackground.jpg");
+
+        /* both back-ground images are not repeating */
+        background-repeat: no-repeat no-repeat;
+
+        background-size: cover;
+        background-position: center center;
+        max-width: 100%;
+        height: auto;
+        width: 100%;
+    }
+
+    .homecarousel5row {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: row;
+        padding-block: 100px;
+        justify-content: flex-end;
+    }
+
+    /*********************************************************/
+
+
+    .middlerow {
+        display: flex;
+        /* justify-content: space-between; */
+    }
+
+    .yellowbottle {
+        transform: translateX(75px);
+    }
+
+    /*******************************Above bottles section************/
+    #abovebottlessection {
+        margin: auto;
+    }
+
+    .carouselulimagesiconrow2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        gap: 3%;
+        padding-block: 34px;
+
+
+    }
+
+    .sectiononeiconcol2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 14%;
+        text-align: center;
+
+    }
+
+    .abovebottlesrow {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+    }
+
+    .imagecontainer1 {
+        width: 35%;
+        /* adjust this to control the size of the circular image */
+        /* height: 0; */
+
+        padding: 30%;
+        /* maintain the aspect ratio of the image */
+
+        overflow: hidden;
+        border-radius: 50%;
+        /* make the image circular */
+        position: relative;
+        border: 4px solid rgb(244 189 86 / 78%);
+
+    }
+
+    .iconimage {
+
+        /* center the image */
+        width: 100%;
+        display: block;
+        /* make the image stretch to fill the container */
+    }
+
+    /****************************************************************/
+
+    /*****************************Bottle section***********************/
+    #bottlesection {
+        background-image: url("images/threebottlesbackground.png");
+        margin: 4% auto;
+        padding-block: 35px;
+        background-size: cover;
+        background-position: center;
+        background-color: #eff6f9;
+    }
+
+
+
+    .textbottlesection {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        gap: 1%;
+    }
+
+    .textbottleheading {
+        width: 50%;
+    }
+
+    .exploreourcollection {
+        font-size: 20px;
+        width: 50%;
+
+    }
+
+
+    .textbottlesection h2 {
+        font-size: 30px;
+        font-family: RanuaTrials-Regular;
+    }
+
+    .textbottlesection p {
+        font-family: RanuaTrials-Regular;
+        color: rgb(58, 58, 58);
+        padding-block-end: 39px;
+        padding-block-start: 30px;
+    }
+
+    .bottlesrow {
+        display: flex;
+        align-items: center;
+        column-gap: 3%;
+        flex-wrap: wrap;
+        padding-block: 41px;
+    }
+
+    .threebottles {
+        width: 100%;
+        display: block;
+    }
+
+    .bottlecolumn {
+        width: 22%;
+        text-align: center;
+        position: relative;
+        background-color: white;
+
+    }
+
+    .topcornertext {
+        position: absolute;
+        bottom: 95%;
+        color: black;
+        font-family: RanuaTrials-Heavy;
+        width: 43%;
+        text-align: left;
+        right: 60%;
+    }
+
+    .threebottlescontent {
+
+
+        background-color: white;
+        position: relative;
+        bottom: 40px;
+        margin: auto;
+    }
+
+    .threebottlename {
+        font-family: RanuaTrials-Medium;
+        color: rgb(58, 58, 58);
+        font-size: 16px;
+    }
+
+    .threebottlep {
+        font-family: RanuaTrials-Regular;
+        color: rgb(162, 162, 162);
+        font-size: 12px;
+        padding-block: 6px;
+    }
+
+    .buynowbutton {
+        color: rgb(58, 58, 58);
+        font-family: RanuaTrials-Medium;
+        border: none;
+        border-radius: 20px;
+        padding-block: 10px;
+        padding-inline: 24px;
+        background-color: rgba(253, 203, 121, 255);
+        font-size: 12px;
+    }
+
+    .textbottlesection {
+        /* text-align: center; */
+        font-family: RanuaTrials-Medium;
+
+    }
+
+    .textbottlesection h2 {
+        color: rgb(58, 58, 58);
+    }
+
+
+
+    /**********************Child Section**********************************/
+    #childsection {
+        margin: 4% auto;
+    }
+
+    .rowchild {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .col1child {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+    }
+
+    .col2child {
+        width: 45%;
+    }
+
+    .col1childtext {
+        color: rgb(58, 58, 58);
+        font-family: RanuaTrials-Regular;
+        font-size: 30px;
+    }
+
+    .littlechildimage {
+        width: 100%;
+        height: auto;
+    }
+
+    .imageicons-row {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 13%;
+        padding-block: 40px;
+        row-gap: 30px;
+    }
+
+    .imageicons-column {
+        font-family: RanuaTrials-Regular;
+        color: rgb(58, 58, 58);
+        /* white-space: pre-wrap; */
+        width: 20%;
+    }
+
+    .imagecontainer {
+        width: 100%;
+    }
+
+    .circularimageimage {
+        width: 100%;
+    }
+
+    .childicontext {
+        font-size: 12px;
+        color: rgb(58, 58, 58);
+        margin-block: 6%;
+        text-align: center;
+    }
+
+    /**************************Section number five****************/
+    #sectionfive {
+        background-image: url("images/latestsectionfivebackground.jpg");
+        background-repeat: no-repeat no-repeat;
+        background-size: cover;
+        background-position: center;
+
+
+    }
+
+
+    .sectionfiverow {
+        display: flex;
+        flex-direction: row;
+        padding-block: 58px;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+    }
+
+    .sectionfivecol {
+        width: 45%;
+    }
+
+
+
+    .sectionfiveiconandtext {
+        color: rgb(58, 58, 58);
+        font-family: RanuaTrials-Medium;
+        font-size: 20px;
+        padding-block: 8px;
+
+    }
+
+    .sectionfiveicons {
+        width: 100%;
+        display: block;
+    }
+
+    .sectionfiveiconcontainer {
+        width: 20%;
+    }
+
+    .easybutton {
+        color: rgb(58, 58, 58);
+        font-family: RanuaTrials-Medium;
+        border: none;
+        border-radius: 20px;
+        padding-block: 12px;
+        padding-inline: 30px;
+        background-color: rgba(253, 203, 121, 255);
+        font-size: 12px;
+    }
+
+
+
+    /**************************Section number six*******************/
+    #sectionsix {
+        background-image: url("images/bluecylinderontablebackground.jpg");
+        background-repeat: no-repeat;
+
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    .sectionsixrow {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-block: 125px;
+    }
+
+    .sectionsixcol1 {
+        width: 40%;
+    }
+
+    .sectionsixcol2 {
+        width: 58%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+
+    }
+
+    .learnmorebutton {
+        color: rgb(58, 58, 58);
+        font-family: RanuaTrials-Medium;
+        border: none;
+        border-radius: 20px;
+        padding-block: 12px;
+        padding-inline: 24px;
+        background-color: rgba(253, 203, 121, 255);
+        font-size: 12px;
+    }
+
+    .smallsizetextsix {
+        font-family: RanuaTrials-Regular;
+        color: rgb(91, 91, 91);
+        padding-block: 20px;
+    }
+
+    /***************************************************************/
+
+
+
+
+    /************************************************************/
+    .sectionheadingtext {
+        font-family: RanuaTrials-Medium;
+
+    }
+
+    /**************************Accordian Section*************************************/
+    #accordiansection {
+
+        font-family: RanuaTrials-Medium;
+        color: rgb(58, 58, 58);
+        margin: 4% auto;
+    }
+
+    .headingaccordiansection {
+
+        text-align: center;
+    }
+
+    .accordianwholecontainer {
+        width: 100%;
+        padding-block: 40px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1%;
+    }
+
+    .accordiontextanchorlink {
+        color: rgb(11, 150, 204);
+    }
+
+    .accordioncontainer {
+
+        border: solid;
+        border-color: #feda9f;
+        border-width: 1px;
+        width: 65%;
+        position: relative;
+    }
+
+
+    .accordion {
+
+        background-color: rgb(255, 255, 255);
+        color: rgb(58, 58, 58);
+        cursor: pointer;
+        width: 100%;
+        text-align: left;
+        outline: none;
+        transition: 0.4s;
+        font-family: RanuaTrials-Regular;
+        font-size: 18px;
+        padding-block: 20px;
+        padding-inline-start: 20px;
+        padding-inline-end: 50px;
+        border: none;
+        outline: none;
+
+    }
+
+    .active,
+    .accordion:hover {
+        background-color: #fff8ec;
+        color: #3a3a3a;
+
+    }
+
+    .accordion:after {
+        content: '\002B';
+        color: #fecb7a;
+        position: absolute;
+        padding: 17px;
+        top: 0;
+        bottom: 0;
+        right: 14px;
+        font-size: 22px;
+
+    }
+
+    .active:after {
+        content: "\2212";
+    }
+
+    .panel {
+
+        background-color: white;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        font-family: RanuaTrials-Light;
+        color: rgb(58, 58, 58);
+    }
+
+    .accordiontext {
+        background-color: rgb(255, 248, 231);
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #3a3a3a;
+        font-size: 13px;
+        font-family: RanuaTrials-Light;
+
+    }
+
+    /***************************Spurulent section********/
+    #sprulentsection {
+        color: rgb(58, 58, 58);
+    }
+
+
+    .spurulentimgandheading {
+
+        display: flex;
+        justify-content: center;
+      column-gap: 2%;
+        flex-wrap: wrap;
+
+    }
+
+    .spurulenttext {
+        text-align: center;
+        font-family: RanuaTrials-Light;
+        padding-block: 25px;
+
+    }
+
+
+
+
+
+
+
+
+    /************************************************/
+    .abovefooterrow {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 2%;
+        margin: 2% auto;
+    }
+
+    .abovefootercol {
+        width: 12.57%;
+        display: flex;
+
+    }
+
+    .imageabovefooter {
+        width: 100%;
+        display: block;
+    }
+
+    /*********************Footer Section    *************************/
+    #footersection {
+        background-image: url("images/footerbackground.png");
+        color: rgb(255, 255, 255);
+        background-repeat: no-repeat no-repeat;
+        background-position: center center;
+        background-size: 100% 100%;
+    }
+
+    .footerrow {
+        display: flex;
+        justify-content: space-between;
+        padding-block: 40px;
+        flex-wrap: wrap;
+    }
+
+    .footercolumn1 {
+
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 20%;
+
+    }
+
+    .footerdivlogo {
+        width: 100%;
+    }
+
+    .footerlogo {
+   width: 100%;
+        display: block;
+    }
+
+    .iconfaceinastacopyright {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .facebookandinstafooter {
+        padding-block: 20px;
+        display: flex;
+        justify-content: space-between;
+        width: 40%;
+    }
+
+
+    .instacontainer,
+    .facebookcontainer {
+        width: 40%;
+
+    }
+
+    .instaimage,
+    .facebookimage {
+        width: 100%;
+        display: block;
+    }
+
+    .footercolumn4 {
+        width: 27%;
+    }
+
+    .anchorfooter {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-family: RanuaTrials-Light;
+    }
+
+    .ulfooter {
+        list-style-type: none;
+        font-family: RanuaTrials-Light;
+        font-size: 12px;
+        padding-block: 16px;
+
+    }
+
+    .main-ul {
+        font-family: RanuaTrials-Regular;
+        font-size: 14px;
+
+    }
+
+    .lifooter {
+        font-family: RanuaTrials-Light;
+        padding-block: 5px;
+    }
+
+    .col4text {
+        font-size: 12px;
+        font-family: RanuaTrials-Light;
+        padding-block: 16px;
+    }
+
+    .inputplacehodertext {
+        padding-block: 8px;
+        width: 83%;
+        padding-inline-start: 15px;
+
+    }
+
+    form {
+        display: flex;
+        flex-direction: row;
+    }
+
+    input {
+        border-style: none;
+    }
+
+
+
+    /***************************Section number Seven***************/
+    #sectionseven {
+        background-color: rgb(217, 244, 255);
+        text-align: center;
+        color: rgb(58, 58, 58);
+        padding-block: 40px;
+
+    }
+
+    .greycolor {
+        padding: 10px;
+    }
+
+    .sectionsevenheading {
+
+        font-family: RanuaTrials-Regular;
+        font-size: 25px;
+        padding-block: 35px;
+    }
+
+    .sectionsevenrow {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+
+    }
+
+    .sectionsevencolumn {
+        width: 25%;
+        text-align: center;
+
+    }
+
+    .userimagecontainer {
+        background-color: rgba(221, 221, 223, 255);
+
+        margin: auto;
+        max-width: 48px;
+        border-radius: 50%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .circularcardimages {
+        width: 100%;
+        height: auto;
+    }
+
+    .customername {
+        font-family: RanuaTrials-Bold;
+        font-size: 15px;
+        padding-block: 13px;
+
+    }
+
+    .customer-review {
+        font-family: RanuaTrials-Light;
+        font-size: 13px;
+        text-align: center;
+        padding-block: 20px;
+    }
+
+    .fivestarsrating {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+
+
+
+
+
+
+    /*************************Section number eight**********************************/
+    #sectioneight {
+        text-align: center;
+        font-family: RanuaTrials-Medium;
+        color: rgb(58, 58, 58);
+        margin: 4% auto;
+    }
+
+
+    .sectioneightrow {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3%;
+        justify-content: center;
+        align-self: center;
+        width: 100%;
+        padding-block: 34px;
+    }
+
+    .sectioneightcol {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 14%;
+
+
+    }
+
+    .sectioneightheadingtext {
+        display: flex;
+        flex-direction: column;
+        font-family: RanuaTrials-Regular;
+    }
+
+    .yellowiconcontainer {
+        width: 64%;
+    }
+
+    .yellowicon {
+        width: 100%;
+        display: block;
+    }
+
+    .sectioneighttext {
+        font-size: 12px;
+        margin-block-start: 6%;
+        color: rgb(58, 58, 58);
+    }
+
+
+    /*****************************CLEANING BOTTLE SECTION***********/
+    .cleaningbottletext {
+        font-family: RanuaTrials-Regular;
+        color: rgb(58, 58, 58);
+        font-size: 34px;
+
+
+    }
+
+    .smallsizetext {
+        font-family: RanuaTrials-Regular;
+        color: rgb(58, 58, 58);
+        padding-block: 15px;
+    }
+
+    #backgroundsection {
+        background-image: url("images/greenglobesection9background.jpg");
+
+        /* both back-ground images are not repeating */
+        background-repeat: no-repeat;
+        /* for responsive image we use background-size:cover */
+        background-size: cover;
+    }
+
+    .cleaningpottlerow {
+        display: flex;
+        flex-wrap: wrap;
+        padding-block: 100px;
+        justify-content: flex-start;
+    }
+
+    .cleaningpottlecol1 {
+
+        width: 40%;
+    }
+
+    .cleaningpottlecol2 {
+        width: 33%;
+    }
+
+    .icon-arrow {
+        width: 30px;
+        height: 4px;
+        background-color: white;
+        border-radius: 4px;
+
+    }
+
+    .orangearrow {
+        background-color: rgba(253, 203, 121, 255);
+        color: white;
+        padding-inline: 9px;
+        border-color: rgba(253, 203, 121, 255);
+        border-style: solid;
+    }
+
+    .button:focus {
+        outline: none;
+    }
+
+    .orangearrow span {
+        font-size: 15px;
+    }
+
+
+    .inputplacehodertext::placeholder {
+        font-family: RanuaTrials-Regular;
+        font-size: 12px;
+    }
+
+    /****************************MEDIA QUERY*******************/
+    @media screen and (max-width: 767px) {
+
+        .section3top {
+            padding: 0 40px;
+        }
+
+        .navsection3top {
+            padding: 0;
+        }
+
+        /************************NAV MEDIA QUERY**************************************/
+        .navandsalediv {
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            z-index: 1;
+        }
+
+
+
+
+
+        /************************MEDIA QUERY FOR HOME CAROUSEL*****/
+        .sectiononeiconcolhome {
+            width: 100%;
+        }
+
+        .homecarousel1col1 {
+            width: 100%;
+            text-align: center;
+        }
+
+        .heyU {
+            justify-content: center;
+        }
+
+        .sectionfiveiconandtextcontainer {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+            align-items: center;
+            gap: 27%;
+        }
+
+        .sectionfivebuttontext {
+            width: 100% !important;
+            text-align: center;
+        }
+
+        /* .nav-section
+    {
+
+        position: fixed;
+        top: 29px;
+        right: 0;
+        left: 0;
+        z-index: 1;
+    } */
+        .logoimage {
+            max-width: 157px;
+        }
+
+        .nav-icon {
+            width: auto;
+            position: relative;
+            right: 40px;
+        }
+
+        .nav-icon-image {
+            max-width: 50px;
+        }
+
+        .navlogo {
+            width: auto;
+        }
+
+        .nav-li {
+            padding-block: 8px;
+        }
+
+        .anchor-li {
+            font-size: 18px;
+            position: relative;
+            left: 40px;
+        }
+
+        /**********************SECTION SIX MEDIA QUERY******/
+
+        .sectionsixcol1 {
+            width: 100%;
+            text-align: center;
+        }
+
+        .cleaningpottlecol1 {
+            width: 100%;
+        }
+
+        /**********************************************************/
+        /**********After home carousel section***************/
+        .iconscontainersectionone {
+            width: 100%;
+        }
+
+
+        /****************************************************/
+
+        .threebottlescontent {
+            padding-block: 30px;
+        }
+
+        .topcornertext {
+            bottom: 85%;
+        }
+
+        /*******************MEDIA QUERY FOR SECTION THREE***************************/
+
+        .textbottleheading {
+            width: 100%;
+        }
+
+        .exploreourcollection {
+
+            width: 100%;
+
+        }
+
+
+        /***********************Section five media query*****/
+
+
+
+        /************************Section eight************/
+        .sectioneightcol {
+            width: 39.5%;
+            margin-block: 20px;
+
+        }
+
+        .sectioneighttext {
+            text-align: center;
+        }
+
+        .yellowiconcontainer {
+            width: 100%;
+        }
+
+
+
+
+        /******************Section seven media query**********/
+        .sectionsevencolumn {
+            width: 100%;
+            padding-block: 27px;
+        }
+
+        .sectionsevenrow {
+            column-gap: 20px;
+        }
+
+
+        /****************Accordian Container**************/
+        .accordioncontainer {
+            width: 100%;
+        }
+
+
+
+
+
+        /*******************Above Footer Section***********/
+        .abovefootercol {
+            width: 30%;
+            display: flex;
+
+        }
+
+
+        /*****************************Bottle section*******************************/
+        .bottlecolumn {
+            width: 48.5%;
+            background-color: transparent;
+        }
+
+
+        /**************************************************************************/
+        /*******************Section Five Media Query*******************************/
+
+        .sectionfivecol {
+            width: 100%;
+
+        }
+
+        .cleaningbottletext {
+            text-align: center;
+        }
+
+        .sectionfiveicons {
+            width: 100%;
+        }
+
+        .sectionfiveiconcontainer {
+            width: 100%;
+        }
+
+        .sectionfiveiconandtext {
+            width: 36.5%;
+            margin-block-end: 15px;
+            text-align: center;
+        }
+
+
+        /**************************************************************************/
+
+        .cleaningpottlecol1 {
+            text-align: center;
+        }
+
+
+        /****************************Footer Media Query*******/
+        .footerrow {
+            display: flex;
+            justify-content: center;
+        }
+
+        .footercolumn1,
+        .footercolumn2,
+        .footercolumn3,
+        .footercolumn4 {
+            width: 100%;
+            text-align: center;
+        }
+
+        input {
+            width: 30%;
+
+        }
+
+        form {
+            justify-content: center;
+        }
+
+  .footerdivlogo
+  {
+    display: flex;
+    justify-content: center;
+  }    
+.footerlogo
+{
+    max-width: 157px;
+}
+.facebookandinstafooter
+{
+    width: 18%;
+}   
+.instaimage, .facebookimage
+{
+    max-width: 50px;
+}
+
+
+
+
+
+
+        /*******************************************************/
+        .sectiononeiconcol2 {
+            width: 48.5%;
+            margin-block-end: 15px;
+        }
+
+        /****************green globe section***********/
+
+
+
+
+
+        /*********************Section one Media Query ********/
+
+
+
+
+
+
+        /**************************Child Section**************/
+        .rowchild {
+            justify-content: center;
+        }
+
+        .col1child {
+            width: 100%;
+        }
+
+        .col2child {
+            width: 100%;
+        }
+
+        .col1childtext {
+            text-align: center;
+        }
+
+        .imageicons-row {
+            justify-content: center;
+            gap: 3%;
+        }
+
+        .imageicons-column {
+            width: 48.5%;
+            margin-block-end: 15px;
+        }
+
+        /******************Hamburger Menue Media Query*****/
+        .container {
+            display: block;
+            position: relative;
+            left: 40px;
+
+        }
+
+        .nav-ul {
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            top: 103px;
+            background-color: white;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .sectioneightrow {
+            justify-content: space-between;
+        }
+
+        body {
+            padding-top: 105px;
+        }
+
+        .Uimage {
+            max-width: 53px;
+        }
+    }
+
+
+    .line {
+
+        width: calc(300px*1.41);
+
+        border-bottom: 3px solid rgb(1, 68, 12);
+
+        transform: rotate(45deg);
+
+        transform-origin: left;
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*************************CLEANING TUTORIAL CSS*********/
+    .cleaningtutorialrow1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        padding-block: 43px;
+    }
+
+    .imagebook {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .cleaningtutorialrow1col1 {
+        width: 60%;
+
+
+    }
+
+    .cleaningtutorialrow1col2 {
+        width: 40%;
+        padding-inline: 42px;
+        padding-block: 118px;
+        background-color: #edf1f3;
+    }
+
+    .learnmorebuttoncleaningtutorial {
+        color: rgb(58, 58, 58);
+        font-family: RanuaTrials-Medium;
+        border: none;
+        border-radius: 20px;
+        padding-block: 12px;
+        padding-inline: 24px;
+        background-color: rgba(253, 203, 121, 255);
+        font-size: 12px;
+    }
+
+    #cleaningtutorialfirstsection {
+        font-family: RanuaTrials-Light;
+    }
+
+    .cleaningtutorialsectiononetext {
+        padding-block: 17px;
+    }
+
+    .cleaningtutorialsection2images {
+        width: 100%;
+        display: block;
+
+    }
+
+    .cleaningtutorialrow2 {
+        display: flex;
+        gap: 3%;
+        width: 100%;
+        flex-wrap: wrap;
+
+        padding-block: 43px;
+
+    }
+
+    .columnrow2 {
+        width: 31%;
+
+    }
+
+    .columnrow2text {
+        padding-block: 30px;
+    }
+
+    .columnrow2text h4 {
+        font-size: 17px;
+        color: rgb(58, 58, 58);
+        font-family: RanuaTrials-Regular;
+    }
+
+    .columnrow2smalltext {
+        padding-block: 15px;
+        font-family: RanuaTrials-Light;
+        font-size: 12px;
+    }
+
+    .row2readmore {
+        color: #f5b44c;
+        font-family: Poppins-Medium;
+        font-size: 12px;
+        text-decoration: underline;
+    }
+
+    @media screen and (max-width: 767px) {
+
+        .cleaningtutorialrow1col1,
+        .cleaningtutorialrow1col2 {
+            width: 100%;
+            text-align: center;
+        }
+
+        .cleaningtutorialrow1col2 {
+            text-align: center;
+        }
+
+        .columnrow2 {
+            width: 100%;
+        }
+
+        .columnrow2 {
+            margin-block: 25px;
+        }
+
+        .columnrow2text {
+            padding-block: 21px;
+        }
+
+        .learnmorebuttoncleaningtutorial {
+            margin: auto;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+    /*******************Government Contracts*************/
+    #govrenmentmosttopsection {
+        background-image: url("images/backgroundgovernmentcontacts.png");
+        background-size: cover;
+
+    }
+
+    .govrenmentmosttopsectiontext {
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .govrenmentmosttopsectionheading {
+        font-size: 37px;
+        font-family: RanuaTrials-Regular;
+        padding-bottom: 22px;
+        padding-top: 150px;
+    }
+
+    .govrenmentmosttopsectionsmalltext {
+        font-size: 16px;
+        font-family: RanuaTrials-Regular;
+        padding-bottom: 150px;
+    }
+
+    .governemntcontractfirstsectionrow1 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-block-start: 100px;
+        margin-block-end: 100px;
+        gap: 6%;
+    }
+
+    .governemntcontractfirstsectionrowcol {
+        width: 47%;
+        padding-block: 30px;
+
+    }
+
+
+
+
+    .governemntcontractfirstsectionrowcol p {
+        color: #656565;
+        font-family: RanuaTrials-Light;
+        font-size: 16px;
+        padding-block: 15px;
+    }
+
+    .governemntcontractfirstsectionrowcol h1 {
+        color: #222222;
+        font-family: helvetica-lt-std-bold;
+        font-size: 20px;
+    }
+
+    .governmentcontactsimage {
+        width: 100%;
+        display: block;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .governemntcontractcol2mageconteianer {
+        width: 47%;
+        background-color: white;
+    }
+
+    @media screen and (max-width: 767px) {
+
+        .governemntcontractfirstsectionrowcol,
+        .governemntcontractcol2mageconteianer {
+            width: 100%;
+        }
+
+        .governemntcontractfirstsectionrowcol {
+            text-align: center;
+        }
+
+    }
+
+
+    /********************* Contact US CSS****************/
+    #wholecontactsection
+    {
+padding-top: 39px;
+padding-bottom: 39px;
+margin: auto;
+width: 84%;
+    }
+
+    .sectiontwocontactus {
+        background-image: url("images/contactusbackgroundimage.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .contactusheading {
+        color: #6e6e6e;
+        font-family: RanuaTrials-Regular;
+        text-align: center;
+        font-size: 30px;
+ padding-block-end: 15px;
+    }
+
+    .contactussmalltext {
+        color: #414141;
+        font-family: RanuaTrials-Light;
+        text-align: center;
+    }
+    .emiallogoandtextcontactus
+    {flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        column-gap: 5%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .formcontactus {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding-block: 50px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+input:focus
+{
+    outline: none;
+}
+    .contactusallinputandtextare {
+
+        width: 100%;
+
+
+    }
+
+    .namecontactusinput {
+        width: 20%;
+        border-radius: 5px;
+        border: 1px solid white;
+       padding-top: 19px;
+       padding-bottom: 22px;
+        width: 48%;
+        margin-block: 12px;
+        padding-right: 20px;
+        padding-left: 30px;
+    }
+
+    .textareacontainercontactus {
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+
+    }
+
+
+    .textareacontainercontactus::placeholder {
+        color: #414141;
+        font-family: Helvetica-LT-Std-Light;
+    }
+    
+
+    .twotopinputcontactus {
+
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+    }
+
+    .bottom-inputs {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .textareainputcontainer::placeholder {
+        color: #414141;
+    }
+
+    .textareacontactus {
+        border-radius: 13px;
+        border: 1px solid #ffffff;
+        padding-block-end: 68px;
+        /* padding-inline: 10px; */
+        padding-block-start: 26px;
+        width: 100%;
+        font-size: 16px;
+        padding-inline-start: 20px;
+        resize: none;
+    }
+
+    .sendbuttoncontactus {
+        background-color: #fdcb79;
+        color: #0f0f0f;
+        border: none;
+        border-radius: 19px;
+        font-family: RanuaTrials-Bold;
+        padding-block: 10px;
+        padding-inline: 22px
+    }
+
+    .contactusrowcol1col2 {
+
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        padding-block: 35px;
+    }
+
+ .emailsupportdiv 
+ { 
+   display: flex;
+ flex-direction: column;
+margin-top: 20px;
+margin-bottom: 20px;    
+width: 50%;
+
+    }
+    .col1 {
+
+        display: flex;
+        color: #6e6e6e;
+        justify-content: center;
+        border: thin solid #d7d7d7;
+        padding-top: 36px;
+        padding-bottom: 36px;
+        width: 49%;
+        border-radius: 10px;
+      
+    }
+
+    /* .imageandemailtextdiv
+{
+    width: 100%;
+} */
+    .emailimagecontainer 
+    { 
+width: 20%;
+    }
+    .e-mailimage {
+               display: block;
+               width:100%;
+    }
+
+    .emialheading {
+        font-family: RanuaTrials-Regular;
+        font-size: 20px;
+    }
+
+    .supportcontact {
+        font-family: RanuaTrials-Regular;
+        overflow-wrap: break-word;
+    }
+
+    .col2 {
+       
+        display: flex;
+        align-items: center;
+        color: #6e6e6e;
+        justify-content: center;
+        border: thin solid #d7d7d7;
+        padding-top: 36px;
+        padding-bottom: 36px;
+        width: 49%;
+        border-radius: 10px;
+    }
+
+    .phonenumber {
+        font-family: RanuaTrials-Regular;
+    }
+
+
+    /* ******************MEDIA QUERY FOR THE CONTACT US PAGE****/
+    @media screen and (max-width: 767px) {
+        .namecontactusinput {
+            width: 100%;
+        }
+
+        .col1 {
+            width: 100%;
+      
+        
+        }
+
+        .col2 {
+            width: 100%;
+            margin-block-start: 35px;
+        }
+        .emiallogoandtextcontactus
+        {
+            width: 100%;
+        }
+.emailsupportdiv
+{
+    text-align: center;
+    width: 100%;
+}
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /***************************SHOP NOW PAGE CSS*******/
+    #shownowmosttopsection {
+        background-image: url("images/shopnowbackground.png");
+        background-size: cover;
+
+    }
+
+    #bottlesectionshoppage {
+        background-image: url("images/threebottlesbackground.png");
+        background-color: #eff6f9;
+        background-size: 100% 100%;
+    }
+
+
+
+
+    /********************CSS For the Retailer Section*********/
+    #mosttopretailersection {
+        background-image: url("images/retailerbackgroundsection.png");
+        background-size: cover;
+
+        width: 100%;
+    }
+
+    .section3top {
+        position: relative;
+    }
+
+    .Retailersdiv {
+
+        color: #fecb7a;
+        padding-block-start: 24rem;
+        padding-block-end: 7rem;
+        position: relative;
+
+    }
+
+    .retailerheading {
+        font-size: 45px;
+        text-align: right;
+        font-family: RanuaTrials-Regular;
+        position: absolute;
+        right: 0;
+    }
+
+    .infantchildrow1 {
+        column-gap: 8%;
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-block-start: 80px;
+        margin-block-end: 80px;
+    }
+
+    .infantchildcolumn1 {
+        width: 46%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .infantchildcolumn2 {
+        width: 46%;
+    }
+
+    .infantchildcolumn1heading {
+
+        color: #222222;
+        font-family: Helvetica-LT-Std-Bold;
+        font-size: 20px;
+    }
+
+
+
+    .infantchild {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .infantchildrow2 {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .infantchildcolumn1heading {
+        font-family: Helvetica-LT-Std-Bold;
+    }
+
+    .infantchildcolumn1smalltext {
+        font-family: Helvetica-LT-Std-Roman;
+        font-family: RanuaTrials-Light;
+        color: #656565;
+        padding-block: 30px;
+    }
+
+    .formretailer {
+        width: 100%;
+    }
+
+    .nameemailcontainer {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .nameretailerinput {
+        border-radius: 23px;
+        border: 1px solid #a0a0a0;
+        padding-inline-start: 24px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: 48%;
+    }
+
+    .nameretailerinput::placeholder {
+        font-family: Helvetica-LT-Std-Roman;
+        color: #222222;
+        font-size: 16px;
+
+    }
+
+    .textareainputcontainer {
+        width: 100%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+
+
+    }
+
+    .textareainput {
+        border-radius: 30px;
+        border: 1px solid #a0a0a0;
+        padding-block-end: 68px;
+        /* padding-inline: 10px; */
+        padding-block-start: 26px;
+        width: 100%;
+        font-size: 16px;
+        resize: none;
+    }
+
+    .textareainput::placeholder {
+        font-family: Helvetica-LT-Std-Roman;
+        color: #222222;
+        padding-inline-start: 24px;
+
+    }
+
+    .sendbuttonretailer {
+        background-color: #fdcb79;
+        color: #000000;
+        border: none;
+        border-radius: 15px;
+
+        font-family: RanuaTrials-Medium;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        width: 100%;
+    }
+
+    /**************** MEDIA QUERY FOR THE RETAILER SECTION********/
+    @media screen and (max-width: 767px) {
+        .retailerheading {
+            text-align: center;
+            width: 100%;
+
+        }
+
+        .retailerheading {
+            bottom: 50%;
+        }
+
+        .infantchildcolumn1 {
+            width: 100%;
+            text-align: center;
+        }
+
+        .infantchildcolumn2 {
+            width: 100%;
+        }
+
+    }
+
+
+    /*************************OUR STORY CSS****************/
+
+
+
+    .row1ourstory {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-block: 60px;
+    }
+
+    .row1colum1ourstory {
+        width: 46%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+
+    }
+
+    .row1colum2ourstory {
+        width: 46%;
+        /* background-image: url("images/infantchild.png");
+    background-size: cover;
+    background-repeat: no-repeat; */
+        /* background-position: center; */
+
+    }
+
+    .abovefooterrowstorypage {
+
+        width: 100%;
+    }
+
+    .row1column1headingourstory {
+        color: #222222;
+        font-family: Helvetica-LT-Std-Bold;
+        padding-block: 30px;
+    }
+
+    .row1column1textourstory {
+        color: #656565;
+        font-family: Poppins-Light;
+        font-size: 14px;
+    }
+
+    .infantchildourstory {
+
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .spurseourstory {
+        width: 50%;
+        margin: 0 auto;
+        margin-block-end: 60px;
+
+    }
+
+    .spurlusetextimage {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+
+
+    .row2ourstory {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-block-end: 60px;
+    }
+
+    .row2column2textourstory {
+        color: #656565;
+        font-family: Poppins-Light;
+
+    }
+
+    .learnmorebutton {
+        color: rgb(58, 58, 58);
+        font-family: RanuaTrials-Medium;
+        border: none;
+        border-radius: 20px;
+        padding-block: 12px;
+        padding-inline: 24px;
+        background-color: rgba(253, 203, 121, 255);
+        font-size: 12px;
+    }
+
+    /* MEDIA QUERY FOR OUR STORY  */
+
+    @media screen and (max-width: 767px) {
+        .row1ourstory {
+            margin-block-start: 0px !important;
+        }
+
+        .row1colum1ourstory {
+            width: 100%;
+            text-align: center;
+        }
+
+        .row1colum2ourstory {
+            width: 100%;
+            /* background-size: 100% 100%;
+    object-fit: contain; */
+
+            /* background-position: center; */
+
+        }
+    }
