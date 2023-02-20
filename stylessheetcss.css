@@ -200,6 +200,7 @@
 
     .Uimage {
         width: 100%;
+        display: block;
     }
 
     .heyudivimage {
@@ -1641,7 +1642,11 @@ padding-block-end: 35px;
     .columnrow2text {
         padding-block: 30px;
     }
-
+    @media screen and (max-width: 767px)
+    { .columnrow2text{
+        text-align: center;
+    }   
+    }
     .columnrow2text h4 {
         font-size: 17px;
         color: rgb(58, 58, 58);
@@ -1768,6 +1773,7 @@ padding-block-end: 35px;
         font-family: RanuaTrials-Light;
         font-size: 16px;
         padding-block: 15px;
+        font-size: 15px;
     }
 
     .governemntcontractfirstsectionrowcol h1 {
@@ -2156,6 +2162,7 @@ width: 20%;
         font-family: RanuaTrials-Light;
         color: #656565;
         padding-block: 22px;
+   
     }
 
     .formretailer {
