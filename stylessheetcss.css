@@ -1064,7 +1064,7 @@ padding-block-end: 35px;
         font-family: RanuaTrials-Light;
         font-size: 13px;
         text-align: center;
-        padding-block: 20px;
+        padding-block: 15px;
     }
 
     .fivestarsrating {
@@ -1938,10 +1938,11 @@ input:focus
         background-color: #fdcb79;
         color: #0f0f0f;
         border: none;
-        border-radius: 19px;
         font-family: RanuaTrials-Bold;
+        border-radius: 20px;
         padding-block: 10px;
-        padding-inline: 22px
+        padding-inline: 24px;
+        font-size: 12px;
     }
 
     .contactusrowcol1col2 {
@@ -1996,6 +1997,7 @@ width: 20%;
     .supportcontact {
         font-family: RanuaTrials-Regular;
         overflow-wrap: break-word;
+        padding-inline: 23px;
     }
 
     .col2 {
@@ -2303,13 +2305,14 @@ width: 20%;
     .row1column1headingourstory {
         color: #222222;
         font-family: Helvetica-LT-Std-Bold;
-        padding-block: 30px;
+        font-size: 34px;
     }
 
     .row1column1textourstory {
         color: #656565;
         font-family: Poppins-Light;
         font-size: 14px;
+        padding-block: 27px;
     }
 
     .infantchildourstory {
@@ -2346,6 +2349,7 @@ width: 20%;
     .row2column2textourstory {
         color: #656565;
         font-family: Poppins-Light;
+        padding-block: 27px;
 
     }
 
@@ -2364,7 +2368,7 @@ width: 20%;
 
     @media screen and (max-width: 767px) {
         .row1ourstory {
-            margin-block-start: 0px !important;
+           
         }
 
         .row1colum1ourstory {
