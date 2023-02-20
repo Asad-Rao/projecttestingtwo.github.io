@@ -455,6 +455,7 @@
     .exploreourcollection {
         font-size: 20px;
         width: 50%;
+        padding-block: 20px;
 
     }
 
@@ -467,8 +468,8 @@
     .textbottlesection p {
         font-family: RanuaTrials-Regular;
         color: rgb(58, 58, 58);
-        padding-block-end: 39px;
-        padding-block-start: 30px;
+        /* padding-block-end: 39px;
+        padding-block-start: 30px; */
     }
 
     .bottlesrow {
@@ -476,7 +477,7 @@
         align-items: center;
         column-gap: 3%;
         flex-wrap: wrap;
-        padding-block: 41px;
+        /* padding-block: 41px; */
     }
 
     .threebottles {
@@ -489,6 +490,8 @@
         text-align: center;
         position: relative;
         background-color: white;
+        margin-block-start: 60px;
+        margin-block-end: 60px;
 
     }
 
@@ -497,9 +500,10 @@
         bottom: 95%;
         color: black;
         font-family: RanuaTrials-Heavy;
-        width: 43%;
+        width: 79%;
         text-align: left;
-        right: 60%;
+        right: 28%;
+        /* word-wrap: break-word; */
     }
 
     .threebottlescontent {
@@ -507,9 +511,9 @@
 
         background-color: white;
         position: relative;
-        bottom: 40px;
-        margin: auto;
-    }
+        bottom: 0px;
+padding-block-end: 35px;
+}
 
     .threebottlename {
         font-family: RanuaTrials-Medium;
@@ -1301,7 +1305,7 @@
         }
 
         .topcornertext {
-            bottom: 85%;
+            /* bottom: 85%; */
         }
 
         /*******************MEDIA QUERY FOR SECTION THREE***************************/
@@ -1572,7 +1576,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         width: 100%;
-        padding-block: 43px;
+        padding-block: 39px;
     }
 
     .imagebook {
@@ -1610,7 +1614,7 @@
     }
 
     .cleaningtutorialsectiononetext {
-        padding-block: 17px;
+        padding-block: 21px;
     }
 
     .cleaningtutorialsection2images {
@@ -1625,7 +1629,7 @@
         width: 100%;
         flex-wrap: wrap;
 
-        padding-block: 43px;
+        padding-block-end: 39px;
 
     }
 
@@ -1699,19 +1703,21 @@
     #govrenmentmosttopsection {
         background-image: url("images/backgroundgovernmentcontacts.png");
         background-size: cover;
+        background-repeat: no-repeat no-repeat;
 
     }
 
     .govrenmentmosttopsectiontext {
         color: #ffffff;
         text-align: center;
+        padding-block-start:230px ;
     }
 
     .govrenmentmosttopsectionheading {
         font-size: 37px;
         font-family: RanuaTrials-Regular;
-        padding-bottom: 22px;
-        padding-top: 150px;
+        /* padding-bottom: 22px;
+        padding-top: 150px; */
     }
 
     .govrenmentmosttopsectionsmalltext {
@@ -1719,13 +1725,32 @@
         font-family: RanuaTrials-Regular;
         padding-bottom: 150px;
     }
+#governemntcontractfirstsection
+
+{
+    padding-block: 100px;
+}
+@media screen and (max-width: 767px)
+{
+    #governemntcontractfirstsection{
+        padding-block: 50px;
+    }
+}
+
+
 
     .governemntcontractfirstsectionrow1 {
         display: flex;
         flex-wrap: wrap;
         width: 100%;
-        margin-block-start: 100px;
-        margin-block-end: 100px;
+        padding-bottom: 50px;
+        gap: 6%;
+    }
+    .governemntcontractfirstsectionrow2 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding-top: 50px;
         gap: 6%;
     }
 
@@ -1782,7 +1807,7 @@
     {
 padding-top: 39px;
 padding-bottom: 39px;
-margin: auto;
+margin: 0 auto;
 width: 84%;
     }
 
@@ -2033,6 +2058,8 @@ width: 20%;
         background-image: url("images/threebottlesbackground.png");
         background-color: #eff6f9;
         background-size: 100% 100%;
+        padding-block-end:55px;
+        padding-block-start: 55px;
     }
 
 
@@ -2066,7 +2093,10 @@ width: 20%;
         position: absolute;
         right: 0;
     }
-
+#retailerfirstsection
+{
+    padding-block: 100px;
+}
     .infantchildrow1 {
         column-gap: 8%;
         display: flex;
@@ -2074,8 +2104,9 @@ width: 20%;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
-        margin-block-start: 80px;
-        margin-block-end: 80px;
+        /* margin-block-start: 80px;
+        margin-block-end: 80px; */
+        padding-block-end: 50px;
     }
 
     .infantchildcolumn1 {
@@ -2105,11 +2136,15 @@ width: 20%;
     }
 
     .infantchildrow2 {
+        column-gap: 8%;
         display: flex;
         width: 100%;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
+        /* margin-block-start: 80px;
+        margin-block-end: 80px; */
+        padding-block-start: 50px;
     }
 
     .infantchildcolumn1heading {
@@ -2120,7 +2155,7 @@ width: 20%;
         font-family: Helvetica-LT-Std-Roman;
         font-family: RanuaTrials-Light;
         color: #656565;
-        padding-block: 30px;
+        padding-block: 22px;
     }
 
     .formretailer {
