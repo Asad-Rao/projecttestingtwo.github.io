@@ -493,6 +493,7 @@
         background-color: white;
         margin-block-start: 60px;
         margin-block-end: 60px;
+        padding-block-start: 40px;
 
     }
 
@@ -1375,7 +1376,7 @@ padding-block-end: 35px;
         /*****************************Bottle section*******************************/
         .bottlecolumn {
             width: 48.5%;
-            background-color: transparent;
+            /* background-color: transparent; */
         }
 
 
