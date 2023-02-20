@@ -431,7 +431,7 @@
     /*****************************Bottle section***********************/
     #bottlesection {
         background-image: url("images/threebottlesbackground.png");
-        margin: 4% auto;
+        /* margin: 4% auto; */
         padding-block: 45px;
         background-size: cover;
         background-position: center;
@@ -555,7 +555,7 @@ padding-block-end: 35px;
 
     /**********************Child Section**********************************/
     #childsection {
-        margin: 4% auto;
+       padding-block: 57px;
     }
 
     .rowchild {
@@ -574,6 +574,7 @@ padding-block-end: 35px;
 
     .col2child {
         width: 45%;
+  
     }
 
     .col1childtext {
@@ -584,7 +585,9 @@ padding-block-end: 35px;
 
     .littlechildimage {
         width: 100%;
-        height: auto;
+        height: 100%;
+        object-fit: cover;
+        display: block;
     }
 
     .imageicons-row {
@@ -648,6 +651,10 @@ padding-block-end: 35px;
         font-family: RanuaTrials-Medium;
         font-size: 20px;
         padding-block: 8px;
+        display: flex;
+        align-items: center;
+        gap: 2%;
+        flex-wrap: wrap;
 
     }
 
@@ -1404,6 +1411,7 @@ padding-block-end: 35px;
             width: 36.5%;
             margin-block-end: 15px;
             text-align: center;
+  justify-content: center;
         }
 
 
