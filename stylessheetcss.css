@@ -432,7 +432,7 @@
     #bottlesection {
         background-image: url("images/threebottlesbackground.png");
         margin: 4% auto;
-        padding-block: 35px;
+        padding-block: 45px;
         background-size: cover;
         background-position: center;
         background-color: #eff6f9;
@@ -492,7 +492,7 @@
         position: relative;
         background-color: white;
         margin-block-start: 60px;
-        margin-block-end: 60px;
+        /* margin-block-end: 60px; */
         padding-block-start: 40px;
 
     }
