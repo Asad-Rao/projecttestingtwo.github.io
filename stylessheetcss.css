@@ -2489,7 +2489,19 @@
     /* MEDIA QUERY FOR OUR STORY  */
 
     @media screen and (max-width: 767px) {
-        .row1ourstory {}
+       
+       /*********MEDIA QUERY FOR SPACING****************/
+        .row1ourstory {
+            padding-block: 30px!important;
+            margin-block: 0px !important;
+        }
+        .row2ourstory
+        {
+            padding-block: 30px!important;
+            margin-block: 0px !important;
+        }
+        /***********************************************/
+        
 
         .row1colum1ourstory {
             width: 100%;
