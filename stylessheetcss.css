@@ -705,9 +705,9 @@
     }
 
     @media screen and (max-width: 767px) {
-        .blackdropofwater {
+        /* .blackdropofwater {
             width: 78%!important;
-        }
+        } */
     }
 
 
@@ -1376,9 +1376,9 @@
             padding-block: 30px;
         }
 
-        .topcornertext {
-            /* bottom: 85%; */
-        }
+        /* .topcornertext {
+            bottom: 85%; */
+        /* } */
 
         /*******************MEDIA QUERY FOR SECTION THREE***************************/
 
