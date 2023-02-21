@@ -1486,6 +1486,8 @@ padding-block-end: 35px;
 
         form {
             justify-content: center;
+            width: 75%;
+            margin: 0 auto;
         }
 
   .footerdivlogo
