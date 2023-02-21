@@ -535,7 +535,7 @@
         top: -8%;
         color: black;
         font-family: RanuaTrials-Heavy;
-        width: 79%;
+        width: 76%;
         text-align: left;
         right: 28%;
         /* word-wrap: break-word; */
@@ -1023,6 +1023,14 @@ padding-block-end: 35px;
         width: 83%;
         padding-inline-start: 15px;
 
+    }
+
+
+
+    @media screen and (max-width: 767px){
+        .inputplacehodertext{
+        width: 50%;
+        }
     }
 
     form {
