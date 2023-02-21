@@ -1695,7 +1695,7 @@ padding-block-end: 35px;
 
     .columnrow2text {
         padding-block: 30px;
-        padding-inline-start: 10px;
+        padding-inline-start: 11px;
     }
     @media screen and (max-width: 767px)
     { .columnrow2text{
