@@ -1029,7 +1029,7 @@ padding-block-end: 35px;
 
     @media screen and (max-width: 767px){
         .inputplacehodertext{
-        width: 50%;
+       max-width: 190px;
         }
     }
 
@@ -1684,7 +1684,7 @@ padding-block-end: 35px;
         width: 100%;
         flex-wrap: wrap;
 
-        padding-block-end: 39px;
+        /* padding-block-end: 39px; */
 
     }
 
@@ -1861,6 +1861,7 @@ padding-block-end: 35px;
 
         .governemntcontractfirstsectionrowcol {
             text-align: center;
+
         }
         .governemntcontractfirstsectionrowcol p
         {
