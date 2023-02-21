@@ -519,6 +519,17 @@
         }
 }    
 
+@media only screen and (min-width:768px) and (max-width:794px){
+ 
+    .alignment2
+    {
+        padding-block: 9px;
+    }
+}  
+
+
+
+
     .topcornertext {
         position: absolute;
         top: -8%;
