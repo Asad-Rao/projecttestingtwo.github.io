@@ -510,7 +510,7 @@
 
     }
 
-    @media screen and (max-width: 409px) {
+    /* @media screen and (max-width: 409px) {
         .alignment {
             padding-block: 11px;
         }
@@ -518,7 +518,11 @@
         .alignment2 {
             padding-block: 10px;
         }
-    }
+    } */
+
+
+
+    
 
     @media only screen and (min-width:768px) and (max-width:794px) {
 
@@ -2172,6 +2176,24 @@
     .bottlecontainershoppage {
         padding-top: 55px;
     }
+
+/******************SHOP NOW BOTTLES LEVELING  MEDIA QUERY****************************/
+@media only screen and (min-width: 767px) and (max-width: 794px)
+{
+.samelevel
+{
+padding-block: 9px;
+}
+}
+@media only screen and (min-width: 320px) and (max-width: 408px)
+{
+.alignment
+{
+padding-block: 9px!important;
+}
+}
+
+
 
 
 
