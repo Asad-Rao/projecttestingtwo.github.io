@@ -208,9 +208,20 @@
     }
 
     .homecarousel1col1 {
-        width: 50%;
+        width: 40%;
+        /* padding-inline-start: 13%; */
     }
-
+/* .rightalignment
+{
+    padding-inline-start: 10%;
+} */
+/* @media screen and (max-width:767px)
+{
+    .rightalignment
+{
+    padding-inline-start: 0%!important;
+}
+} */
     .carouselulimagesiconrow {
         display: flex;
         flex-direction: row;
@@ -223,7 +234,7 @@
     }
 
     .sectiononeiconcolhome {
-        width: 18%;
+        width: 20%;
     }
 
     .sectiononeiconcol {
@@ -304,6 +315,7 @@
         font-family: RanuaTrials-Regular;
         color: rgb(58, 58, 58);
         padding-block: 20px;
+        /* padding-right: 30px; */
     }
 
     /***********************CAROUSEL THREE******************************/
@@ -496,10 +508,20 @@
         padding-block-start: 40px;
 
     }
+    @media screen and (max-width: 409px) {
+        .alignment
+        {
+            padding-block: 11px;
+        }
+        .alignment2
+        {
+            padding-block: 10px;
+        }
+}    
 
     .topcornertext {
         position: absolute;
-        bottom: 95%;
+        top: -8%;
         color: black;
         font-family: RanuaTrials-Heavy;
         width: 79%;
@@ -664,7 +686,7 @@ padding-block-end: 35px;
     }
 
     .sectionfiveiconcontainer {
-        width: 20%;
+        width: 10%;
     }
 
     .easybutton {
@@ -742,17 +764,18 @@ padding-block-end: 35px;
 
         font-family: RanuaTrials-Medium;
         color: rgb(58, 58, 58);
-        margin: 4% auto;
     }
 
     .headingaccordiansection {
 
         text-align: center;
+        padding-block: 38px;
+        font-size: 34px;
     }
 
     .accordianwholecontainer {
         width: 100%;
-        padding-block: 40px;
+        padding-block-end: 64px;     
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -1220,7 +1243,7 @@ padding-block-end: 35px;
             z-index: 1;
         }
 
-
+       
 
 
 
@@ -1232,6 +1255,7 @@ padding-block-end: 35px;
         .homecarousel1col1 {
             width: 100%;
             text-align: center;
+            /* padding-inline-start: 0!important; */
         }
 
         .heyU {
@@ -1586,7 +1610,7 @@ padding-block-end: 35px;
         flex-direction: row;
         flex-wrap: wrap;
         width: 100%;
-        padding-block: 39px;
+        padding-block: 44px;
     }
 
     .imagebook {
@@ -1635,7 +1659,7 @@ padding-block-end: 35px;
 
     .cleaningtutorialrow2 {
         display: flex;
-        gap: 3%;
+        gap: 2%;
         width: 100%;
         flex-wrap: wrap;
 
@@ -1644,12 +1668,13 @@ padding-block-end: 35px;
     }
 
     .columnrow2 {
-        width: 31%;
+        width: 32%;
 
     }
 
     .columnrow2text {
         padding-block: 30px;
+        padding-inline-start: 10px;
     }
     @media screen and (max-width: 767px)
     { .columnrow2text{
@@ -1685,6 +1710,8 @@ padding-block-end: 35px;
 
         .cleaningtutorialrow1col2 {
             text-align: center;
+            padding-inline:30px;
+            padding-block: 70px;
         }
 
         .columnrow2 {
@@ -1738,6 +1765,7 @@ padding-block-end: 35px;
         font-size: 16px;
         font-family: RanuaTrials-Regular;
         padding-bottom: 150px;
+        padding-top: 15px;
     }
 #governemntcontractfirstsection
 
@@ -1788,7 +1816,7 @@ padding-block-end: 35px;
     .governemntcontractfirstsectionrowcol h1 {
         color: #222222;
         font-family: helvetica-lt-std-bold;
-        font-size: 20px;
+        font-size: 29px;
     }
 
     .governmentcontactsimage {
@@ -1812,6 +1840,10 @@ padding-block-end: 35px;
 
         .governemntcontractfirstsectionrowcol {
             text-align: center;
+        }
+        .governemntcontractfirstsectionrowcol p
+        {
+            padding-inline: 17px;
         }
 
     }
@@ -1846,11 +1878,18 @@ width: 84%;
         font-family: RanuaTrials-Light;
         text-align: center;
     }
+    .contactussmalltext1 {
+        color: #414141;
+        font-family: RanuaTrials-Light;
+        text-align: center;
+        padding-block-start: 10px;
+        padding-block-end: 20px;
+    }
     .emiallogoandtextcontactus
     {flex-wrap: wrap;
         display: flex;
         flex-direction: row;
-        width: 100%;
+        width: 64%;
         column-gap: 5%;
         align-items: center;
         justify-content: center;
@@ -1960,7 +1999,7 @@ input:focus
  flex-direction: column;
 margin-top: 20px;
 margin-bottom: 20px;    
-width: 50%;
+width: 65%;
 
     }
     .col1 {
@@ -1997,7 +2036,7 @@ width: 20%;
     .supportcontact {
         font-family: RanuaTrials-Regular;
         overflow-wrap: break-word;
-        padding-inline: 23px;
+
     }
 
     .col2 {
@@ -2043,6 +2082,10 @@ width: 20%;
     text-align: center;
     width: 100%;
 }
+.supportcontact {
+  padding-inline: 33px;
+
+}
     }
 
 
@@ -2078,7 +2121,10 @@ width: 20%;
         padding-block-end:55px;
         padding-block-start: 55px;
     }
-
+.bottlecontainershoppage
+{
+    padding-top: 55px;
+}
 
 
 
@@ -2114,7 +2160,20 @@ width: 20%;
 {
     padding-block: 100px;
 }
-    .infantchildrow1 {
+
+@media screen and (max-width: 767px)
+{#retailerfirstsection{
+    padding-block: 60px;
+}
+.infantchildrow1
+{
+    padding-block-end: 30px!important;
+}.infantchildrow2
+{
+    padding-block-start:30px!important;
+}
+}
+.infantchildrow1 {
         column-gap: 8%;
         display: flex;
         width: 100%;
@@ -2311,10 +2370,16 @@ width: 20%;
     .row1column1textourstory {
         color: #656565;
         font-family: Poppins-Light;
-        font-size: 14px;
+        font-size: 13px;
         padding-block: 27px;
     }
-
+.ourstorypart
+{
+    padding-block: 10px;
+    color: #656565;
+    font-family: Poppins-Light;
+    font-size: 13px;
+}
     .infantchildourstory {
 
         height: 100%;
@@ -2350,6 +2415,7 @@ width: 20%;
         color: #656565;
         font-family: Poppins-Light;
         padding-block: 27px;
+        font-size: 13px;
 
     }
 
