@@ -184,3 +184,7 @@
     font-family:Helvetica-LT-Std-Light;
     src: url("Fonts/Helvetica-LT-Std-Light.otf");
 }
+@font-face {
+    font-family:MYRIADPRO-REGULAR;
+    src: url("Fonts/MYRIADPRO-REGULAR.OTF");
+}

@@ -2065,6 +2065,16 @@
 
     }
 
+    .phonesupportdiv {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        /* width: 65%; */
+
+    }
+
+
     .col1 {
 
         display: flex;
@@ -2137,7 +2147,7 @@
             margin-block-start: 35px;
         }
 
-        .emiallogoandtextcontactus {
+        .emiallogoandtextcontactus,.emiallogoandtextcontactusphone {
             width: 100%;
         }
 
@@ -2150,6 +2160,11 @@
             padding-inline: 33px;
 
         }
+            .phonesupportdiv 
+            {
+                width: 100%;
+                text-align: center;
+            }
     }
 
 
@@ -2195,7 +2210,7 @@
 {
 .samelevel
 {
-padding-block: 9px;
+padding-block-end: 19px;
 }
 }
 @media only screen and (min-width: 320px) and (max-width: 408px)
@@ -2232,7 +2247,7 @@ padding-block-end: 19px!important;
     }
 
     .retailerheading {
-        font-size: 45px;
+        font-size: 50px;
         text-align: right;
         font-family: RanuaTrials-Regular;
         position: absolute;
