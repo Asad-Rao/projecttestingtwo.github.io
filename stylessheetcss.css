@@ -233,7 +233,16 @@
         gap: 1%;
 
     }
+    .carouselulimagesiconrowshopnow {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /* justify-content: flex-start; */
+        width: 100%;
+        /* padding-block: 30px; */
+        gap: 1%;
 
+    }
     .sectiononeiconcolhome {
         width: 22%;
     }
