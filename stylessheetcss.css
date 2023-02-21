@@ -1029,7 +1029,11 @@
         padding-block: 16px;
         line-height: 25px;
     }
-
+    .reservedrights
+    {
+        font-size: 12px;
+        font-family: RanuaTrials-Light;
+    }
     @media screen and (max-width: 767px)
     { .col4text{
         line-height: 20px;
