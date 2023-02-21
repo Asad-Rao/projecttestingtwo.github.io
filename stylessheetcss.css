@@ -683,7 +683,7 @@ padding-block-end: 35px;
         color: rgb(58, 58, 58);
         font-family: RanuaTrials-Medium;
         font-size: 20px;
-        padding-block: 8px;
+       margin-block: 23px;
         display: flex;
         align-items: center;
         gap: 2%;
