@@ -1676,6 +1676,10 @@
         padding-block: 118px;
         background-color: #edf1f3;
     }
+    .row1col2heading
+    {
+        font-size: 27px;
+    }
 
     .learnmorebuttoncleaningtutorial {
         color: rgb(58, 58, 58);
